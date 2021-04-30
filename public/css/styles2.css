@@ -1,0 +1,275 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: #dfe7ed;
+}
+
+ .header h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px solid black;
+}
+.bg{
+  background-color: #dfe7ed;
+}
+.header h4{
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  text-shadow: 2px solid black;
+}
+h2{
+  color: gray;
+}
+.img{
+  background-image: url(images/hotel-b.jpg);
+  width: 100%
+  height:100%
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-inner{
+    image-resolution: from-image;
+}
+
+.fname p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.form-signin{
+  width: 20%;
+  height: 100%;
+  padding-top: 4rem;
+  /* position: absolute; */
+  float: left;
+  margin-left: 10%
+}
+.form-signin .checkbox{
+  font-weight: 400;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.mb-4{
+  margin-left:38%;
+  margin-top: 0;
+}
+.text-musted{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-body{
+  background-color: #dfe7ed;
+
+
+}
+.middle{
+  margin-bottom: 0px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.carousels{
+  /* display: flex; */
+   /* position:relative; */
+   height: 70%;
+   padding-top: 2%
+   float: right;
+   padding-left: 48%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-inner{
+  float: right;
+  display: flex;
+  margin: 0;
+}
+.containe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container1{
+padding: 2rem
+display:flex;
+}
+.container-body{
+height: 30%
+display:flex;
+width 100%
+}
+.arro{
+  /* margin-top: 10%; */
+  padding-top: 18%;
+}
+.jumbo{
+  margin-top: 38%;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.mb-3{
+  text-align: center;
+  color: grey;
+}
+.banner{
+  width: 100%
+}
+.about-banner{
+  height: 70%;
+  position: absolute;
+  margin-left: 0;
+  background-color: black;
+  opacity: 0.9;
+  width: 97%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-banner-blur{
+  position:  relative;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  color: white;
+  height: 80%;
+  width: 100%;
+}
+.img-banner-blur h1 {
+  font-family: vardan;
+
+}
+.img-banner-blur p{
+  font-size: 22px;
+  font-family: cursive;
+  letter-spacing: 2px;
+padding: 20px;
+}
+.small-container{
+  margin-top: 15%;
+  font-size: 22px;
+  text-align: center;
+  font-family: vardan;
+}
+.col-md-4 p h1 {
+width:  70%;
+text-align: center;
+}
+.footer{
+  text-align: center;
+  font-size: 18px;
+}
+.footer-up{
+  width: 100%
+}
+/* /////////////////////////////////////////// */
+ .form-signin{
+  height: 70px;
+  width: 60%
+  margin-left: 70%;
+}
+/* /////////////////////////////////////// */
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+/* .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); } */
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
